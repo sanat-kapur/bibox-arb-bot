@@ -106,11 +106,6 @@ def enter_limit_order(token_pair,direction,price,quantity):
     elif direction =="sell":
         dir_code = 2
         money = quantity*price
-
-    print(money)
-    print(token_pair)
-    print(price)
-    print(quantity)
     
     cmds = [
     {
