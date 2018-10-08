@@ -23,18 +23,14 @@ def trader_bot():
 	#since the account is always trading these 3 currencies, I will check
 	#if I have a >10 balance in any of these 3 - if I do, then I will
 	#attempt to sell that token for another
-		if cm.getbalance(token)*.95>10:
-			#print("bal>10 "+token)
-			for conduit_token in conduit_tokens:
-				#print(token+" "+conduit_token)
+		if cm.getbalance(token)*.95>10:			
+			for conduit_token in conduit_tokens:				
 				cm.find_arb_opp(token, conduit_token)
 				
 				
 
 while True:
-
 	try:
-		#print("trade_time")
 		trader_bot()
 		
 	except:
