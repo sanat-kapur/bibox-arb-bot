@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Oct  1 10:24:56 2018
-
-@author: sanat.kapur
+This file contains a simple function
+and code to actuall run the bot
 """
 
 ## my bot
