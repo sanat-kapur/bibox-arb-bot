@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Oct  1 10:24:24 2018
-
-@author: sanat.kapur
+This file has a set of functions to 
+interact with the Bibox API. The function
+find_arb_opp specifically searches for arbitrage
+opportunities, but the others should be
+broadly useful
 """
 
 ## functions I need
