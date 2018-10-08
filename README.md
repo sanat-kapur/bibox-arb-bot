@@ -2,7 +2,7 @@
 Stablecoin Arbitrage Bot for Bibox
 
 # Description
-This is a bot that exploits arbitrage opportunities between three stablecoins: USDT, GUSD, and DAI on the Bibox exchange. On Bibox, there are no markets to trade these tokens against each other (which is probably why there are still some arbitrage opportunities. Thus, the bot will use ETH or BTC as a go-between when buying/selling one of these currencies against each other.
+This is a bot that exploits arbitrage opportunities between three stablecoins: USDT, GUSD, and DAI on the Bibox exchange. On Bibox, there are no markets to trade these tokens against each other (which is probably why there are still some arbitrage opportunities). Thus, the bot will use ETH or BTC as a go-between when buying/selling one of these currencies against each other.
 
 # Step by Step Bot Description
 Given a base token or stablecoin e.g. DAI and a conduit/go between token e.g. BTC, the bot will:
